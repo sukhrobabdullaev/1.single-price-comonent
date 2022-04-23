@@ -1,0 +1,140 @@
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+#main #left {
+  background-color: #2BB3B1;
+  border-bottom-left-radius: 20px;
+  padding: 30px;
+  width: 52%;
+}
+
+#main #left p {
+  color: #e5eff5;
+  font-weight: 400;
+}
+
+#main #left p span {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#main #left button {
+  background-color: #BFDF32;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#main #left button:hover {
+  background-color: #40fffc;
+  color: #32df5d;
+}
+
+#main #right {
+  border-bottom-right-radius: 20px;
+  background-color: #4ABEBD;
+  padding: 30px;
+  width: 48%;
+}
+
+#main #right p {
+  color: #e5eff5;
+  width: 80%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: #fff;
+  padding: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#header h3 {
+  color: #2ab2af;
+}
+
+#header .title {
+  color: #c0df34;
+}
+
+#header .desc {
+  color: #98a6bd;
+}
+
+.wrapper {
+  max-width: 50%;
+  margin: 65px auto;
+  line-height: 1.8;
+  -webkit-box-shadow: 0 0 50px #ccc;
+          box-shadow: 0 0 50px #ccc;
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 540px) {
+  .wrapper {
+    max-width: 80%;
+    margin: 65px auto;
+  }
+  #main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #main #left {
+    width: 100%;
+    border-radius: 0;
+  }
+  #main #right {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #E6EFF6;
+  background-image: url("../images//bgimge.png");
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
